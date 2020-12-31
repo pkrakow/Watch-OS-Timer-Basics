@@ -17,6 +17,7 @@
 		DA0A69C9259E8AF500D7843E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A69C8259E8AF500D7843E /* ComplicationController.swift */; };
 		DA0A69CB259E8AF600D7843E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0A69CA259E8AF600D7843E /* Assets.xcassets */; };
 		DA0A69CE259E8AF600D7843E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0A69CD259E8AF600D7843E /* Preview Assets.xcassets */; };
+		DA0A69E2259E947700D7843E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A69E1259E947700D7843E /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		DA0A69CD259E8AF600D7843E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA0A69CF259E8AF600D7843E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0A69D0259E8AF600D7843E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DA0A69E1259E947700D7843E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				DA0A69C0259E8AF500D7843E /* Watch_OS_Timer_BasicsApp.swift */,
 				DA0A69C2259E8AF500D7843E /* ContentView.swift */,
+				DA0A69E1259E947700D7843E /* SecondView.swift */,
 				DA0A69C4259E8AF500D7843E /* NotificationController.swift */,
 				DA0A69C6259E8AF500D7843E /* NotificationView.swift */,
 				DA0A69C8259E8AF500D7843E /* ComplicationController.swift */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0A69E2259E947700D7843E /* SecondView.swift in Sources */,
 				DA0A69C5259E8AF500D7843E /* NotificationController.swift in Sources */,
 				DA0A69C3259E8AF500D7843E /* ContentView.swift in Sources */,
 				DA0A69C9259E8AF500D7843E /* ComplicationController.swift in Sources */,

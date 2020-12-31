@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var secondScreenShown = false
+    @State var timerVal = 1
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            Text("Start Timer for \(timerVal) seconds")
+            
+            Picker(selection: $timerVal, label: Text("")) {
+                Text("1").tag(1)
+                Text("5").tag(5)
+                Text("10").tag(10)
+                Text("15").tag(15)
+            }
+            
+            NavigationLink(destination: SecondView(secondScreenShown: $secondScreenShown, timerVal: timerVal), isActive: $secondScreenShown, label: {Text("Go")})
+        }
     }
 }
 
